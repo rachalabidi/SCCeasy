@@ -42,7 +42,7 @@
     font-size:60px;
     padding: 15px;
     font-family: cursive;
-    color:rgb(230, 21, 167);
+    color:#2535B2;
     position: relative;
     z-index: 3;
 }
@@ -158,20 +158,22 @@ p{
   margin-top: 600px;
   
 }
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
- 
+@media (min-width: 768px) and (max-width: 1024px) {
+ *{
+   align-items: center;
+ }
 }
 @media (min-width: 280px) and (max-width: 767px) {
  
   .wrapper .icon {
-    width: 50px;
-    height: 50px;
-    font-size: 18px;
+    width: 80px;
+    height: 80px;
+    font-size: 28px;
   }
   .wrapper{
-    margin-top: 250px;
+    margin-top: 300px;
 }
 p{
-  margin-bottom: 220px;
+  margin-bottom: 500px;
 }
 }

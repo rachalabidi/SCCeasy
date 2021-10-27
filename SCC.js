@@ -1,13 +1,13 @@
 
 var particles = Particles.init({
     selector: ".background",
-    color: ["#03dac6", "#ff0266", "#000000"],
+    color: ["#C331F5", "#2535B2", "#DD2DFF"],
     connectParticles: true,
     responsive: [
       {
         breakpoint: 768,
         options: {
-          color: ["#faebd7", "#03dac6", "#ff0266"],
+          color: ["#D80DB7", "#C331F5", "#DD2DFF"],
           maxParticles: 43,
           connectParticles: false
         }
